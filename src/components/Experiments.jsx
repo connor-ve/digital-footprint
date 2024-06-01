@@ -26,7 +26,7 @@ const items = [
 const Experiments = () => {
   return (
     <>
-      <div id="exp-header">Experiments</div>
+      <div className="list-header">Experiments</div>
       <IconList items={items} />
     </>
   );

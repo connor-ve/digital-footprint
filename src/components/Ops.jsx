@@ -4,19 +4,19 @@ import IconList from './IconList'; // Import the IconList component
 const items = [
   {
     href: '',
-    iconClass: 'fa-solid fa-brush',
+    iconClass: "fa-brands fa-square-github",
     title: 'Title 1',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
   },
   {
     href: '',
-    iconClass: 'fa-solid fa-brush',
+    iconClass: "fa-brands fa-square-github",
     title: 'Title 2',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
   },
   {
     href: '',
-    iconClass: 'fa-solid fa-brush',
+    iconClass: "fa-brands fa-square-github",
     title: 'Title 3',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
   },
@@ -26,7 +26,7 @@ const items = [
 const Ops = () => {
   return (
     <>
-      <div id="exp-header">Open Source Projects</div>
+      <div className="list-header">Open Source Projects</div>
       <IconList items={items} />
     </>
   );

@@ -1,13 +1,28 @@
-// eslint-disable-next-line react/prop-types
-const IconWrapper = ({ href, iconClass }) => {
+import PropTypes from 'prop-types'; // Import PropTypes for prop validation
+
+const IconWrapper = ({ href, iconClass, disableLink }) => {
   return (
     <div className="icon-wrapper">
-      <a href={href}>
+      {disableLink ? (
         <i className={iconClass}></i>
-      </a>
+      ) : (
+        <a href={href}>
+          <i className={iconClass}></i>
+        </a>
+      )}
       <div className="circle-backdrop"></div>
     </div>
   );
+};
+
+IconWrapper.propTypes = {
+  href: PropTypes.string,
+  iconClass: PropTypes.string.isRequired,
+  disableLink: PropTypes.bool,
+};
+
+IconWrapper.defaultProps = {
+  disableLink: false,
 };
 
 export default IconWrapper;

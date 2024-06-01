@@ -16,6 +16,15 @@ body{
   justify-content: space-around;
   width: 40%;
 }
+/* @media (min-width:480px)  { 
+  .link-icons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+  }
+} */
 
 .icon-wrapper {
   position: relative;
@@ -72,8 +81,10 @@ body{
   margin-top: -10px;
 }
 
-#exp-header {
+.list-header {
   color: #fafafa;
+  font-size: 2em;
+  margin-top: 45px;
 }
 
 .list-item {

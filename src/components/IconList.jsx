@@ -8,7 +8,11 @@ const IconList = ({ items }) => {
       {items.map((item, index) => (
         <div className="list-item" key={index}>
           <div className="list-icon">
-            <IconWrapper href={item.href} iconClass={item.iconClass} />
+            <IconWrapper 
+              href={item.href} 
+              iconClass={item.iconClass}
+              disableLink={(item.href == "")?true:false}
+            />
           </div>
           <div className="list-desc">
             <h3>{item.title}</h3>

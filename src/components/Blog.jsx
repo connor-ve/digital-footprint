@@ -3,22 +3,22 @@ import IconList from './IconList'; // Import the IconList component
 
 const items = [
   {
-    href: '',
-    iconClass: 'fa-solid fa-brush',
-    title: 'Title 1',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    href: 'https://dev.to/connor-ve/how-to-make-glass-with-css-418j',
+    iconClass: 'fa-brands fa-dev',
+    title: 'How to make glass... with CSS!',
+    description: '5 lines of code are all that is need to achieve this effect.',
   },
   {
-    href: '',
-    iconClass: 'fa-solid fa-brush',
-    title: 'Title 2',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    href: 'https://dev.to/connor-ve/starter-project-idea-conways-game-of-life-1jfi',
+    iconClass: 'fa-brands fa-dev',
+    title: 'Starter Project Idea: Conway\'s Game of Life',
+    description: 'A simple tutorial on how to develop your version of Conway\'s Game of Life with Vanilla JS.',
   },
   {
-    href: '',
-    iconClass: 'fa-solid fa-brush',
-    title: 'Title 3',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    href: 'https://dev.to/connor-ve/how-to-use-keyword-arguments-in-python-gcl',
+    iconClass: 'fa-brands fa-dev',
+    title: 'How to use Keyword Arguments in Python',
+    description: 'Tutorial and Explanation about what Keyword Arguments are and how to use them withing python.',
   },
   // Add more items as needed
 ];
@@ -26,7 +26,7 @@ const items = [
 const Blog = () => {
   return (
     <>
-      <div id="exp-header">Text and Thoughts</div>
+      <div className="list-header">Text and Thoughts</div>
       <IconList items={items} />
     </>
   );
