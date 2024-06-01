@@ -1,0 +1,92 @@
+
+body{
+  background-color: #242424;
+}
+.wrapper {
+  background-color: hsl(0, 100%, 74%);
+  display: inline-block;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.link-icons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.icon-wrapper {
+  position: relative;
+  width: 50px; /* Adjust based on your icon size */
+  height: 50px; /* Adjust based on your icon size */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-wrapper i {
+  color: #fafafa;
+  position: relative;
+  /* z-index: 10; */
+  transition: color .2s ease;
+  font-size: 2em;
+}
+
+.icon-wrapper:hover i {
+  color: #242424;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.circle-backdrop {
+  background: #fafafa;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform .5s ease, width .5s ease, height .5s ease;
+  z-index: 0; /* Ensure it is behind the icon */
+}
+
+.icon-wrapper:hover .circle-backdrop {
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.head-text {
+  display: flex;
+  padding: 15px;
+  color: #fafafa;
+}
+
+#title {
+  width: 40%;
+}
+.head-text h1 {
+  margin-top: -10px;
+}
+
+#exp-header {
+  color: #fafafa;
+}
+
+.list-item {
+  display: flex;
+}
+.list-icon {
+  /* border: #fafafa 1px solid; */
+  display: flex;
+  justify-content: center;
+
+  margin: 20px 20px 20px 20px;
+}
+.list-desc, .list-desc > * {
+  color: #fafafa;
+  /* border: #fafafa 1px solid; */
+}
