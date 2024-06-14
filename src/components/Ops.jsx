@@ -15,9 +15,9 @@ const items = [
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
   },
   {
-    href: '',
+    href: 'https://github.com/connor-ve/dark-terminal',
     iconClass: "fa-brands fa-square-github",
-    title: 'Title 3',
+    title: 'ByteBorne : Idle Ascent',
     description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
   },
   // Add more items as needed
