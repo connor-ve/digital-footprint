@@ -1,6 +1,7 @@
 import IconWrapper from './IconWrapper'; 
 
 const Header = () => {
+
   return (
     <>
       <div>
@@ -15,7 +16,7 @@ const Header = () => {
         </div>
         <div className="link-icons">
           <IconWrapper
-            href="mailto:vanettencr@gmail.com?subject=Lets Build Some Together&body=Share your crazy software idea with me!"
+            href="mailto:vanettencr@gmail.com?subject=Lets Build Some Together&body=Share your crazy software idea with me!" 
             iconClass="fa-regular fa-paper-plane"
           />
           <IconWrapper
