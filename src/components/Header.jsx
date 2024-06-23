@@ -1,10 +1,11 @@
 import IconWrapper from './IconWrapper'; 
+import '../styles/Header.css';
 
 const Header = () => {
 
   return (
     <>
-      <div>
+      <div className='HeaderComponent'>
         <div className="head-text">
           <div id="title">
             <h1>Connor</h1>

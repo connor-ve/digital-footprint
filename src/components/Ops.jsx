@@ -5,20 +5,20 @@ const items = [
   {
     href: '',
     iconClass: "fa-brands fa-square-github",
-    title: 'Title 1',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    title: 'yawn + sleep',
+    description: 'yawn and sleep are an attempt to help modernize the landscape of Progress ABL (previously 4gl). Conceptually yawn can be understood as the npm of ABL. A basic cli to allow the user to install Open Source Packages built with progress. Sleep is the counterpart of yawn and acts as a registry to hold our open source packages for download.',
   },
   {
-    href: '',
+    href: 'https://github.com/connor-ve/jira-cli.go',
     iconClass: "fa-brands fa-square-github",
-    title: 'Title 2',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    title: 'jira-cli.go',
+    description: 'For work I am commonly asked to use jira as a way to comminuite and update what I am working on. As a true programmer using a GUI to change data feels like a waste of time. THis extension should allow the developer to log into jira given they have an api key and update their tracking boards with commands.',
   },
   {
-    href: 'https://github.com/connor-ve/dark-terminal',
+    href: 'https://github.com/connor-ve/byte-borne-cli',
     iconClass: "fa-brands fa-square-github",
     title: 'ByteBorne : Idle Ascent',
-    description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sit eius eligendi alias ipsam, nulla, quas tenetur incidunt pariatur magni perspiciatis possimus, temporibus necessitatibus sed. Amet accusantium ab unde aut.',
+    description: 'Just your average rpg in your terminal. Built using GoLang with a focus in mod-ability.',
   },
   // Add more items as needed
 ];

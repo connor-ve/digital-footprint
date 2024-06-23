@@ -1,0 +1,40 @@
+.HeaderComponent {
+
+}
+
+.head-text {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  color: #fafafa;
+}
+
+
+.head-text h1 {
+  margin-top: -10px;
+}
+
+.link-icons {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+
+@media all and (max-width: 480px) {
+  .head-text {
+    display: flex;
+    flex-direction: column;
+    }
+    
+  #title {
+    width: 100%;
+  }
+    
+  .link-icons {
+    justify-content: space-around;
+    width: 100%;
+  }
+}
